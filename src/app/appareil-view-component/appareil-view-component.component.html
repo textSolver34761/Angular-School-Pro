@@ -1,0 +1,13 @@
+<div >
+    <h2>My home machines...</h2>
+    <div *ngFor="let appareil of appareils">
+        <button (click)="detail(appareil.id)">Detail</button>
+        <ul>
+            <p>The {{appareil.name}} is {{appareil.status}}.</p>
+        </ul>
+        <button class="btn btn-success" (click)="getStatus(appareil.id,true)">  ON  </button>
+        <button class="btn btn-danger"  (click)="getStatus(appareil.id,false)"> OFF </button>
+    </div>
+    <button (click)="switchOnAll()">  Switch on all </button>
+    <button (click)="switchOffAll()"> Switch off all </button>
+</div>

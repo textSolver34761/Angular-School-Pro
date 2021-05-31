@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"Washing machine",
+        "status":"off"
+    },
+    {
+        "id":2,
+        "name":"Fridge",
+        "status":"open"
+    },
+    {
+        "id":3,
+        "name":"PC",
+        "status":"off"
+    }
+]
